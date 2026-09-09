@@ -3,31 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Saya</title>
+
+    <title>Alvaro Daruwijaya | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header>
-        <h1>Halo, Saya Nasywan Alvaro Daruwijaya</h1>
-        <p>Web Developer & Designer</p>
-    </header>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            &lt;/&gt;
+            <span>Alvaro Daruwijaya</span>
+        </div>
 
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah seorang pengembang web yang berfokus pada pembuatan aplikasi web modern dan responsif.</p>
+        <div class="nav-menu">
+            <a href="#home" class="active">Beranda</a>
+            <a href="#about">Tentang Saya</a>
+            <a href="#project">Proyek</a>
+            <a href="#contact">Kontak</a>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="hello">Halo, Saya</p>
+
+            <h1>
+                Nasywan
+                <span>Alvaro Daruwijaya</span>
+            </h1>
+
+            <h2>Web Developer & Designer</h2>
+
+            <div class="line"></div>
+
+            <p class="description">
+                Saya adalah seorang pengembang web yang berfokus
+                pada pembuatan aplikasi web modern dan responsif.
+            </p>
+
+            <div class="buttons">
+                <a href="#contact" class="btn primary">
+                    👤 Hubungi Saya
+                </a>
+
+                <a href="#project" class="btn secondary">
+                    ↓ Lihat Proyek
+                </a>
+            </div>
+        </div>
+
+        <!-- Efek cahaya -->
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+
     </section>
 
-    <section id="projects">
-        <h2>Proyek Saya</h2>
-        <ul>
-            <li><strong>Sistem Presensi:</strong> Aplikasi pencatatan kehadiran pegawai.</li>
-            <li><strong>Website Portofolio:</strong> Landing page pribadi menggunakan GitHub Pages.</li>
-        </ul>
+
+    <!-- ABOUT + SKILLS -->
+    <section id="about" class="about-section">
+
+        <div class="about-card">
+
+            <div class="profile-picture">
+                <div class="profile-icon">👨‍💻</div>
+            </div>
+
+            <div>
+                <h2>Tentang Saya</h2>
+
+                <p>
+                    Saya adalah seorang pelajar yang sedang
+                    mengembangkan kemampuan di bidang web development.
+                    Saya suka belajar hal baru, membuat proyek sederhana,
+                    dan terus berusaha menjadi versi terbaik dari diri saya.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="skills-card">
+
+            <h2>⚙ Skills</h2>
+
+            <div class="skills">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+                <span>Responsive Design</span>
+                <span>UI/UX</span>
+
+            </div>
+
+        </div>
+
     </section>
 
-    <footer>
-        <p>&copy; 2026 Nasywan Alvaro Daruwijaya. All rights reserved.</p>
+
+    <!-- PROJECT -->
+    <section id="project" class="project-section">
+
+        <div class="section-title">
+            <h2>📁 Proyek Saya</h2>
+
+            <a href="#" class="all-project">
+                Lihat Semua Proyek →
+            </a>
+        </div>
+
+
+        <div class="projects">
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    💻
+                </div>
+
+                <div class="project-info">
+                    <h3>Sistem Presensi</h3>
+
+                    <p>
+                        Aplikasi pencatatan kehadiran pegawai.
+                    </p>
+
+                    <a href="#">↗ Lihat Detail</a>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    🌐
+                </div>
+
+                <div class="project-info">
+                    <h3>Website Portofolio</h3>
+
+                    <p>
+                        Landing page pribadi menggunakan GitHub Pages.
+                    </p>
+
+                    <a href="#">↗ Lihat Detail</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+
+        <h2>Hubungi Saya</h2>
+
+        <p>
+            Tertarik untuk bekerja sama atau sekadar ngobrol?
+        </p>
+
+        <a href="mailto:emailkamu@gmail.com" class="btn primary">
+            ✉ Kirim Email
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <p>
+            © 2026 Nasywan Alvaro Daruwijaya. All rights reserved.
+        </p>
+
+        <div class="social">
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+            <a href="#">Email</a>
+        </div>
     </footer>
 
 </body>
